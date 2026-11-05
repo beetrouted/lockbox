@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'">
+<meta name="referrer" content="no-referrer">
+<title>Lockbox & Key: support</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>:root{color-scheme:light dark;--paper:#f0eee9;--card:#fff;--ink:#121411;--muted:#59574f;--line:#d3cfc5;--accent:#0b6a49;--mark:#8c5f14;--soft:#dcede3;--glow:transparent;
+--brand:radial-gradient(130% 120% at 15% 0%,#1d6a4e 0%,#0b2d21 45%,#050807 100%);--brand-mark:#ddb467;--brand-rim:#c9a25b;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+@media (prefers-color-scheme:dark){:root{--paper:#0d0e0e;--card:#151a18;--ink:#ecf2ee;--muted:#9eaaa2;--line:#2a322e;--accent:#3ddc97;--mark:#ddb467;--soft:#12291f;--glow:#10352a}}
+*{box-sizing:border-box}html{background:var(--paper)}
+body{margin:0;color:var(--ink);font:17px/1.6 var(--sans);background:radial-gradient(1200px 520px at 15% -10%,var(--glow) 0%,transparent 65%),var(--paper)}
+main{max-width:760px;margin:0 auto;padding:24px 16px 80px}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:28px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:650;color:var(--ink);text-decoration:none}
+.brand svg{width:20px;height:20px;color:var(--mark)}
+nav .links a{color:var(--muted);text-decoration:none;margin-left:16px}nav .links a:hover,nav .links a[aria-current]{color:var(--ink)}
+.hero{position:relative;border-radius:16px;padding:40px 28px;background:var(--brand);color:#f3f6f2;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:10px;border:1px solid var(--brand-rim);border-radius:10px;opacity:.6;pointer-events:none}
+.hero svg{width:44px;height:44px;color:var(--brand-mark)}
+.hero h1{font-size:clamp(30px,6vw,42px);line-height:1.15;margin:16px 0 8px;letter-spacing:-.01em}
+.hero p{margin:0;color:rgba(243,246,242,.8);font-size:18px;max-width:30em}
+h1,h2{font-weight:650;letter-spacing:-.01em}h1{font-size:clamp(28px,6vw,38px);line-height:1.2;margin:8px 0 12px}h2{font-size:22px;margin:0 0 8px}
+.lede{color:var(--muted);font-size:18px;margin:0 0 8px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-top:16px;box-shadow:0 8px 22px rgba(18,20,17,.06)}
+.panel p,.panel ul{margin:0}.panel ul{padding-left:20px}.panel li+li{margin-top:6px}.panel p+p,.panel p+ul,.panel ul+p{margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px}.grid .panel{margin-top:0}
+.contact{background:var(--soft);border-color:transparent}
+a{color:var(--accent)}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:15px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.todo{background:#fde68a;color:#3b2a00;padding:0 4px;border-radius:4px}</style>
+</head>
+<body>
+<main>
+<nav><a class="brand" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Lockbox &amp; Key</a><span class="links"><a href="index.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></span></nav>
+<section class="hero"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><h1>Your files, locked.<br>On every screen.</h1><p>Keep ID papers, bank statements and photos in a vault only you can open, and send them safely.</p></section>
+<div class="grid">
+<div class="panel"><h2>Keep</h2><p>Lock a vault with Face ID or Touch ID, or with a password that opens it on any computer.</p></div>
+<div class="panel"><h2>Send</h2><p>Send a copy with its own password, or to someone in People with no password at all.</p></div>
+<div class="panel"><h2>Private</h2><p>Nothing leaves your device unless you send it. There is no account and no server.</p></div>
+</div>
+<div class="panel contact"><h2>Get help</h2><p>Write to <a class="support" href="mailto:lockboxandkey@gmail.com">lockboxandkey@gmail.com</a>. Say which device you use and what you tried. Never send a password or a vault you can't share.</p></div>
+<div class="panel"><h2>Common questions</h2><ul>
+<li><strong>I forgot a vault's password.</strong> Nobody can reset it, not even us. That's what keeps it private. Vaults locked with Face ID or Touch ID need your Lockbox key instead: keep a backup of it (My vaults › Backup).</li>
+<li><strong>A new phone or Mac.</strong> Restore your key backup in People, then choose the same vaults folder (for example in iCloud Drive) in Settings.</li>
+<li><strong>Someone sent me a file.</strong> Save it first, then open it with Lockbox &amp; Key, or in any browser if it ends in .html. A chat or mail preview can't open it.</li>
+<li><strong>Where are my vaults?</strong> Settings › Where vaults are kept. Their files have random names, so the folder shows nothing about what's inside.</li>
+<li><strong>Deleting the app.</strong> On an iPhone, deleting Lockbox &amp; Key also deletes every vault kept in On My iPhone › Lockbox. Keep a backup of your iPhone, or keep your vaults in a folder in iCloud Drive. The app asks which you'd like when you keep your first vault, and you can change it in Settings › Where vaults are kept.</li>
+<li><strong>Earlier versions.</strong> When you save changes, the version before goes to the Trash on a Mac. On an iPhone it goes to Recently Deleted in the Files app, where Lockbox &amp; Key keeps one earlier version of each vault for 30 days. Settings › Space shows the space they use and can remove them sooner.</li>
+<li><strong>Only Face ID, not the passcode.</strong> On an iPhone, touch and hold Lockbox &amp; Key on the Home Screen, choose Require Face ID, and turn on Stolen Device Protection in Settings › Face ID &amp; Passcode. Away from familiar places, your iPhone then opens the app only with Face ID.</li>
+<li><strong>How big can a vault be?</strong> As big as your free space. Lockbox &amp; Key reads a vault a piece at a time, and videos of any size play inside the app without an unlocked copy. Very large pictures and PDFs are offered as a download instead.</li>
+<li><strong>Running out of space?</strong> Keep your vaults in iCloud Drive (Settings › Use iCloud Drive). Your iPhone can then keep vaults you aren't using only in iCloud, and downloads one when you open it. iCloud needs room for them too.</li>
+</ul></div>
+<div class="panel"><h2>Reporting a security problem</h2><p>Write to <a class="support" href="mailto:lockboxandkey@gmail.com">lockboxandkey@gmail.com</a> with "Security" in the subject. We read every report and reply as soon as we can.</p></div>
+<footer><span>Lockbox &amp; Key. No accounts, no tracking, no server.</span><span>This page sets no cookies and loads nothing from elsewhere.</span></footer>
+</main>
+</body>
+</html>

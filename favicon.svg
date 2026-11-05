@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- The app icon at tab size: an evergreen tile and the brass lock, a little heavier so it holds at 16 pixels. -->
+  <rect width="32" height="32" rx="7" fill="#0C231F"/>
+  <g transform="translate(5 5) scale(.9167)" fill="none" stroke="#DDB467" stroke-width="2.4" stroke-linejoin="round">
+    <rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+  </g>
+</svg>
